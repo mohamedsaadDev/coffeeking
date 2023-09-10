@@ -1,0 +1,25 @@
+.continer-Home{
+    background-image: url(../../imges/home.png);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 20% 0 ;
+}
+.continer-Home img{
+    width:100%;
+}
+@media(max-width:992px){
+    .continer-Home img{
+        margin-top: 15%;
+    }
+}
+@media(max-width:670px){
+    .continer-Home img{
+        margin-top: 30%;
+    }
+}
+@media(max-width:480px){
+    .continer-Home img{
+        margin-top: 50%;
+    }
+}
